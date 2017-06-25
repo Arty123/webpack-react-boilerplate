@@ -6,7 +6,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const SpritesmithPlugin = require('webpack-spritesmith');
 
 const PATHS = {
     source: path.join(__dirname, 'source'),
