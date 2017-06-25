@@ -41,32 +41,6 @@ module.exports = {
         new StyleLintPlugin({
             configFile: './.stylelintrc',
         }),
-        new SpritesmithPlugin({
-            src: {
-                cwd: path.resolve(PATHS.source, 'pages/assets/sprite-png'),
-                glob: '*.png'
-            },
-            target: {
-                image: path.resolve(PATHS.source, 'pages/sprite-png.png'),
-                css: path.resolve(PATHS.source, 'pages/sprite-png.css')
-            },
-            apiOptions: {
-                cssImageRef: "sprite-png.png"
-            }
-        }),
-        new SpritesmithPlugin({
-            src: {
-                cwd: path.resolve(PATHS.source, 'pages/assets/sprite-gif'),
-                glob: '*.gif'
-            },
-            target: {
-                image: path.resolve(PATHS.source, 'pages/sprite-gif.png'),
-                css: path.resolve(PATHS.source, 'pages/sprite-gif.css')
-            },
-            apiOptions: {
-                cssImageRef: "sprite-gif.png"
-            }
-        }),
         new UglifyJSPlugin()
     ],
     module: {
