@@ -21,10 +21,6 @@ module.exports = {
         path: PATHS.build,
         filename: './js/[name].js'
     },
-    resolve: {
-        //webpack 2:
-        modules: ["node_modules", "spritesmith-generated"]
-    },
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
