@@ -9,7 +9,7 @@ class Content extends React.Component {
         super(props);
         this.handleInputChange = this.handleInputChange.bind(this);
         this.state = {
-            input: 'World',
+            input: 'Man',
         };
     }
     handleInputChange(e) {
@@ -29,4 +29,4 @@ class Content extends React.Component {
     }
 }
 
-export default Content;  
+export default Content;

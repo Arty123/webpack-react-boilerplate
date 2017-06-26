@@ -1,0 +1,15 @@
+.sidebar {
+  width: 70%;
+  background-color: #ffee3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
